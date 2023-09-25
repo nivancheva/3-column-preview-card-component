@@ -1,0 +1,36 @@
+:root {
+    --clr-orange: hsl(31, 77%, 52%);
+    --clr-cyan: hsl(184, 100%, 22%);
+    --clr-dark-cyan: hsl(179, 100%, 13%);
+    --clr-neutral: hsla(0, 0%, 100%, 0.75); /* paragraphs */
+    --clr-neutral-gray: hsl(0, 0%, 95%); /* background, headings, buttons */
+
+    --ff-main: 'Big Shoulders Display', cursive;
+    --ff-accent: 'Lexend Deca', sans-serif;
+
+    --fw-regular: 400;
+    --fw-bold: 700;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+}
+
+img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+}
+
+body {
+    font-family: var(--ff-main);
+    font-weight: var(--fw-regular);
+    font-size: 0.9375rem;
+    background-color: var(--clr-neutral-gray);
+    color: var(--clr-neutral);
+}
