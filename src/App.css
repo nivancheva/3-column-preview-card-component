@@ -7,6 +7,7 @@
 .container {
     border-radius: .5em;
     overflow: hidden;
+    max-width: 500px;
 }
 
 @media (min-width:800px) {
@@ -20,9 +21,5 @@
 @media (max-width:801px) {
     .wrapper {
         margin: 4em 2em;
-    }
-
-    .container {
-        max-width: 500px;
-    }
+    } 
 }
