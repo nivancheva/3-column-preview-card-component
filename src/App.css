@@ -1,11 +1,18 @@
 .wrapper {
-    color: black;
-
     display: grid;
     place-content: center;
     min-height: 100vh;
 }
 
-@media (min-width:800px) {
+.container {
+    border-radius: .5em;
+    overflow: hidden;
+}
 
+@media (min-width:800px) {
+    .container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        max-width: 900px;
+    }
 }

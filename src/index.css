@@ -2,11 +2,12 @@
     --clr-orange: hsl(31, 77%, 52%);
     --clr-cyan: hsl(184, 100%, 22%);
     --clr-dark-cyan: hsl(179, 100%, 13%);
+    
     --clr-neutral: hsla(0, 0%, 100%, 0.75); /* paragraphs */
     --clr-neutral-gray: hsl(0, 0%, 95%); /* background, headings, buttons */
 
-    --ff-main: 'Big Shoulders Display', cursive;
-    --ff-accent: 'Lexend Deca', sans-serif;
+    --ff-accent: 'Big Shoulders Display', cursive;
+    --ff-main: 'Lexend Deca', sans-serif;
 
     --fw-regular: 400;
     --fw-bold: 700;

@@ -8,11 +8,13 @@ function App() {
 
   return (
     <div className='wrapper'>
-      {categories.map((category, idx) => {
-        return (
-          <Card key={idx} {...category}/>
-        )
-      })}
+      <div className='container'>
+        {categories.map((category, idx) => {
+          return (
+            <Card key={idx} {...category}/>
+          )
+        })}
+      </div>
     </div>
   );
 }
