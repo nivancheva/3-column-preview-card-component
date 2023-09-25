@@ -1,0 +1,11 @@
+.wrapper {
+    color: black;
+
+    display: grid;
+    place-content: center;
+    min-height: 100vh;
+}
+
+@media (min-width:800px) {
+
+}
